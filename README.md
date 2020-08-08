@@ -7,3 +7,5 @@
 ### run a shell command while in vim
 :!cat /proc/cpuinfo
 
+###Delete all after first space in all lines:
+%s/\s.*//g
